@@ -1,7 +1,7 @@
 // PLACEWISE — STUDENT PLACEMENT MANAGEMENT SYSTEM
 // Full Database-Driven Frontend integrated with Flask (MySQL & MongoDB)
 
-const API_BASE = window.location.origin.startsWith("http") ? "" : "http://127.0.0.1:5000";
+const API_BASE = "https://place-wise.onrender.com";
 
 let state = {
   students: [],
